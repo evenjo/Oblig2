@@ -1,0 +1,56 @@
+Script started on fr. 23. okt. 2020 kl. 15.20 +0200
+]0;887658@web01: ~887658@web01:~$ ls
+887658     [0m[01;34moblig1[0m                    prog_renter.py  typescript
+[01;34mlinuxkurs[0m  [01;31moblig1-887658.tar.gz[0m      [01;34mpublic_html[0m     utskrift.txt
+nyfilen    oblig1-887658.tar.gz.gpg  [01;34mskripting[0m
+[01;34mnymappe[0m    prog_print_format.py      tidsfil
+]0;887658@web01: ~887658@web01:~$ mkdrit[K[K[Kir oblig2; cp ~/../tn/public_html/pb1070/oblig2/brev.docx obl ig2/
+]0;887658@web01: ~887658@web01:~$ ls
+887658     [0m[01;34moblig1[0m                    prog_print_format.py  tidsfil
+[01;34mlinuxkurs[0m  [01;31moblig1-887658.tar.gz[0m      prog_renter.py        typescript
+nyfilen    oblig1-887658.tar.gz.gpg  [01;34mpublic_html[0m           utskrift.txt
+[01;34mnymappe[0m    [01;34moblig2[0m                    [01;34mskripting[0m
+]0;887658@web01: ~887658@web01:~$ cd oblig2
+]0;887658@web01: ~/oblig2887658@web01:~/oblig2$ ls
+brev.docx
+]0;887658@web01: ~/oblig2887658@web01:~/oblig2$ unzip o[Kbrev.docx 
+Archive:  brev.docx
+  inflating: [Content_Types].xml     
+  inflating: _rels/.rels             
+  inflating: word/document.xml       
+  inflating: word/_rels/document.xml.rels  
+ extracting: word/media/image1.png   
+ extracting: word/media/image2.png   
+  inflating: word/theme/theme1.xml   
+  inflating: word/settings.xml       
+  inflating: word/styles.xml         
+  inflating: word/webSettings.xml    
+  inflating: word/fontTable.xml      
+  inflating: docProps/core.xml       
+  inflating: docProps/app.xml        
+]0;887658@web01: ~/oblig2887658@web01:~/oblig2$ tree
+[01;34m.[00m
+├── brev.docx
+├── [Content_Types].xml
+├── [01;34mdocProps[00m
+│   ├── app.xml
+│   └── core.xml
+├── [01;34m_rels[00m
+└── [01;34mword[00m
+    ├── document.xml
+    ├── fontTable.xml
+    ├── [01;34mmedia[00m
+    │   ├── [01;35mimage1.png[00m
+    │   └── [01;35mimage2.png[00m
+    ├── [01;34m_rels[00m
+    │   └── document.xml.rels
+    ├── settings.xml
+    ├── styles.xml
+    ├── [01;34mtheme[00m
+    │   └── theme1.xml
+    └── webSettings.xml
+
+6 directories, 13 files
+]0;887658@web01: ~/oblig2887658@web01:~/oblig2$ exit
+
+Script done on fr. 23. okt. 2020 kl. 15.21 +0200
